@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+
+
+.search {
+    margin: 0px auto;
+    max-width: 1050px;
+    text-align: center;
+    
+}
+
+input {
+    height: 50px;
+    width: 500px;
+    max-width: 1080px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid rgb(204, 204, 204);
+    padding-left: 10px;
+  }
+
+  input::placeholder {
+      color: rgb(148, 148, 148) ;
+
+  }
+
+
+.gallery {
+    display: grid;
+    max-width: 1000px;;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    grid-gap: 1rem;
+    justify-content: center;
+    margin: 20px auto 0;
+}
